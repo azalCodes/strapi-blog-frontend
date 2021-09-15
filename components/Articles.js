@@ -4,7 +4,7 @@ on the right and left-hand sides of your blog.
 */
 
 import React from "react";
-import Card from "./card";
+import Card from "./Card";
 
 const Articles = ({ articles }) => {
   const leftArticlesCount = Math.ceil(articles.length / 5);
